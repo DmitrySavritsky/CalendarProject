@@ -1,0 +1,29 @@
+.text{
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    min-width: 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 30px;
+}
+
+td:hover{
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+}
+
+th{
+    text-align: center;
+    font-size: 30px;
+}
+
+#calendarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
